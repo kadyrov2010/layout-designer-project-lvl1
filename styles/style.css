@@ -62,6 +62,19 @@
   margin-top: -20px;
 }
 
+.button {
+  margin-top: 20px;
+  border-color: #ffffff;
+  border-radius: 5px;
+  text-transform: uppercase;
+  color: #ffffff;
+  background: none;
+}
+.button__link {
+  text-decoration: none;
+  color: #ffffff;
+}
+
 .advantages {
   padding-top: 40px;
   display: flex;
@@ -108,7 +121,8 @@
 }
 .rest {
   display: flex;
-  background-color: #f6f8809a;
+  background-color: #f7f7f7;
+  height: 100vh;
 }
 
 .rest__content {
@@ -121,6 +135,39 @@
 
 .rest__content-text {
   font-size: 20px;
+}
+.form {
+  background: #f7f7f7;
+}
+.section__form {
+  width: 500px;
+  margin: 20px auto;
+}
+.fieldset {
+  border: 2px double #31a6bb;
+  border-radius: 6px;
+  color: #31a6bb;
+}
+.fieldset__p {
+  display: flex;
+  justify-content: flex-end;
+  padding: .5em;
+}
+
+.fieldset__p > label {
+  padding: .5em 1em .5em 0;
+  flex: 1;
+}
+
+.select {
+  width: 45%;
+}
+.button-form {
+  margin-left: 430px;
+  font-size: 20px;
+  color: #31a6bb;
+  border-color: #31a6bb;
+  border-radius: 5px;
 }
 .footer {
   height: 150px;

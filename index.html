@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="ru">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -8,6 +9,7 @@
     <link rel="stylesheet" href="styles/normalize.css">
     <link rel="stylesheet" href="styles/style.css">
 </head>
+
 <body>
     <div class="container">
         <header class="header">
@@ -28,27 +30,35 @@
                 <img src="../images/logo.svg" alt="luna" class="logo-img">
                 <h1 class="hero_title">ЖК Лунное море</h1>
                 <span class="hero_small-text">Место, откуда не хочеться улетать</span>
+                <button class="button"><a href="#booking" class="button__link">Забронировать</a></button>
             </div>
             <section id="advantages" class="advantages">
                 <div class="advantages__content">
                     <h2 class="article-name">Уникальный вид</h2>
-                    <span class="advantages__content-text"><br> Вид на космос из вашего окна. Мы построили дома с большими окнами, чтобы вы могли наслаждаться метеоритными потоками.</span>
-               </div>
+                    <span class="advantages__content-text"><br> Вид на космос из вашего окна. Мы построили дома с
+                        большими окнами, чтобы вы могли наслаждаться метеоритными потоками.</span>
+                </div>
                 <div class="advantages__content">
                     <h2 class="article-name">Инфраструктура</h2>
-                    <span class="advantages__content-text"><br>Прекрасные дороги рядом с домом. Много мест для прогулки. Всего в 200 км. от посёлка находится кольцо гор Кордильеры, на которых вы сможете провести незабываемые выходные.</span>
+                    <span class="advantages__content-text"><br>Прекрасные дороги рядом с домом. Много мест для прогулки.
+                        Всего в 200 км. от посёлка находится кольцо гор Кордильеры, на которых вы сможете провести
+                        незабываемые выходные.</span>
                 </div>
                 <div class="advantages__content">
                     <h2 class="article-name">Удобное расположение</h2>
-                    <span class="advantages__content-text"><br>При небольшой цене мы располагаемся близко к столице. Всего 384 000 километров и вы в самом сердце страны.</span>
+                    <span class="advantages__content-text"><br>При небольшой цене мы располагаемся близко к столице.
+                        Всего 384 000 километров и вы в самом сердце страны.</span>
                 </div>
             </section>
             <section id="about" class="about">
                 <div class="about__content">
                     <h2 class="article-name">О ЖК "Лунное море"</h2>
                     <span class="about__text">
-                        Все чаще жители столицы предпочитают загородный дом городской квартире, к тому же связь с мегаполисом не теряется – современные скоростные трассы позволяют без труда добираться до столицы и обратно.
-                        <br> Мы построили наши дома на самом близком к Солнцу спутнике, всего в 380 тысяч километров от Земли.
+                        Все чаще жители столицы предпочитают загородный дом городской квартире, к тому же связь с
+                        мегаполисом не теряется – современные скоростные трассы позволяют без труда добираться до
+                        столицы и обратно.
+                        <br> Мы построили наши дома на самом близком к Солнцу спутнике, всего в 380 тысяч километров от
+                        Земли.
                     </span>
                 </div>
                 <img src="../images/moon-1.jpg" width="50%" height="70%" alt="вид на луну">
@@ -58,13 +68,56 @@
                 <div class="rest__content">
                     <h2 class="article-name">Места для отдыха</h2>
                     <span class="rest__content-text">
-                        Луна обладает всеми условиями для комфортного отдыха от большого города. В вашем распоряжении 22 моря и 18 гор. Самое ближайшее кольцо гор всего в 200 километров от вашей квартиры.
-                        <br>Дома располагаются в новом районе «Лунные моря». При необходимости есть автобусы до района «Лунный материк».
+                        Луна обладает всеми условиями для комфортного отдыха от большого города. В вашем распоряжении 22
+                        моря и 18 гор. Самое ближайшее кольцо гор всего в 200 километров от вашей квартиры.
+                        <br>Дома располагаются в новом районе «Лунные моря». При необходимости есть автобусы до района
+                        «Лунный материк».
                     </span>
                 </div>
+            </section>
+            <section class="form">
+                <form action="" id="booking" class="section__form">
+                    <h1 class="article-name">Оставьте заявку сегодня!</h1>
+                    <fieldset class="fieldset">
+                        <legend class="legend">Параметры квартиры</legend>
+                        <p class="fieldset__p">
+                            <label for="rooms">Количество комнат</label>
+                            <select name="rooms" id="" class="select">
+                                <option value="room1">1</option>
+                                <option value="room2">2</option>
+                                <option value="room3">3</option>
+                            </select>
+                        </p>
+                        <p class="fieldset__p">
+                            <label for="tuning">Отделка</label>
+                            <select name="tuning" id="" class="select">
+                                <option value="tuning0">Без отделки</option>
+                                <option value="tuning1">С отделкой</option>
+                                <option value="tuning2">С ремонтом</option>
+                            </select>
+                        </p>
+                    </fieldset>
+                    <fieldset class="fieldset">
+                        <legend class="legend">Контактная информация</legend>
+                        <p class="fieldset__p">
+                            <label for="name">Имя</label>
+                            <input type="text" placeholder="Введите имя">
+                        </p>
+                        <p class="fieldset__p">
+                            <label for="phone">Телефон</label>
+                            <input type="tel" name="user_phone" placeholder="Введите телефон" required>
+                        </p>
+                        <p class="fieldset__p">
+                            <label for="mail">E-mail</label>
+                            <input type="text">
+                        </p>
+                    </fieldset>
+                </form>
+                <button class="button-form">Отправить</button>
             </section>
         </main>
         <footer class="footer">футер</footer>
     </div>
 </body>
+
 </html>
