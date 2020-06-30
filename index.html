@@ -11,46 +11,46 @@
 </head>
 
 <body>
-    <div class="container">
-        <header class="header">
-            <div class="logo">
+    <div class="di-f fd-colum">
+        <header class="header w-100 di-f jc-sb">
+            <div class="logo di-f">
                 <img src="../images/logo.svg" width="65px" alt="luna">
-                <H1><a href="#" class="logo-text">ЖК Лунное море</a></H1>
+                <H1><a href="#" class="logo-text td-none">Лунное море</a></H1>
             </div>
             <nav class="menu">
-                <ul class="nav-horizontal">
-                    <li><a href="#advantages" class="link">Преимущества</a></li>
-                    <li><a href="#about" class="link">О ЖК</a></li>
-                    <li><a href="#rest" class="link">Места для отдыха</a></li>
+                <ul class="menu_horizontal fd-row di-f">
+                    <li><a href="#advantages" class="link td-none">Преимущества</a></li>
+                    <li><a href="#about" class="link td-none">О ЖК</a></li>
+                    <li><a href="#rest" class="link td-none">Места для отдыха</a></li>
                 </ul>
             </nav>
         </header>
         <main>
-            <div class="hero">
+            <div class="hero di-f fd-colum ai-center jc-center">
                 <img src="../images/logo.svg" alt="luna" class="logo-img">
-                <h1 class="hero_title">ЖК Лунное море</h1>
+                <h1>ЖК "Лунное море"</h1>
                 <span class="hero_small-text">Место, откуда не хочеться улетать</span>
                 <button class="button"><a href="#booking" class="button__link">Забронировать</a></button>
             </div>
-            <section id="advantages" class="advantages">
+            <section id="advantages" class="advantages di-f jc-center ai-center h-100vh">
                 <div class="advantages__content">
                     <h2 class="article-name">Уникальный вид</h2>
-                    <span class="advantages__content-text"><br> Вид на космос из вашего окна. Мы построили дома с
+                    <span><br> Вид на космос из вашего окна. Мы построили дома с
                         большими окнами, чтобы вы могли наслаждаться метеоритными потоками.</span>
                 </div>
                 <div class="advantages__content">
                     <h2 class="article-name">Инфраструктура</h2>
-                    <span class="advantages__content-text"><br>Прекрасные дороги рядом с домом. Много мест для прогулки.
+                    <span><br>Прекрасные дороги рядом с домом. Много мест для прогулки.
                         Всего в 200 км. от посёлка находится кольцо гор Кордильеры, на которых вы сможете провести
                         незабываемые выходные.</span>
                 </div>
                 <div class="advantages__content">
                     <h2 class="article-name">Удобное расположение</h2>
-                    <span class="advantages__content-text"><br>При небольшой цене мы располагаемся близко к столице.
+                    <span><br>При небольшой цене мы располагаемся близко к столице.
                         Всего 384 000 километров и вы в самом сердце страны.</span>
                 </div>
             </section>
-            <section id="about" class="about">
+            <section id="about" class="about di-f ai-center h-100vh">
                 <div class="about__content">
                     <h2 class="article-name">О ЖК "Лунное море"</h2>
                     <span class="about__text">
@@ -61,13 +61,13 @@
                         Земли.
                     </span>
                 </div>
-                <img src="../images/moon-1.jpg" width="50%" height="70%" alt="вид на луну">
+                <img src="../images/moon-1.jpg"  alt="вид на луну">
             </section>
-            <section id="rest" class="rest">
+            <section id="rest" class="rest di-f jc-sb ai-center h-100vh">
                 <img src="../images/moon-2.jpg" width="50%" alt="космонавт с пивом">
                 <div class="rest__content">
                     <h2 class="article-name">Места для отдыха</h2>
-                    <span class="rest__content-text">
+                    <span>
                         Луна обладает всеми условиями для комфортного отдыха от большого города. В вашем распоряжении 22
                         моря и 18 гор. Самое ближайшее кольцо гор всего в 200 километров от вашей квартиры.
                         <br>Дома располагаются в новом районе «Лунные моря». При необходимости есть автобусы до района
@@ -75,9 +75,10 @@
                     </span>
                 </div>
             </section>
-            <section class="form">
-                <form action="" id="booking" class="section__form">
-                    <h1 class="article-name">Оставьте заявку сегодня!</h1>
+            <section id="booking" class="emty"></section>
+            <section  class="form">
+                <form action="" class="section__form di-f fd-colum">
+                    <h2 class="article-name">Оставьте заявку сегодня!</h2>
                     <fieldset class="fieldset">
                         <legend class="legend">Параметры квартиры</legend>
                         <p class="fieldset__p">
@@ -116,7 +117,26 @@
                 <button class="button-form">Отправить</button>
             </section>
         </main>
-        <footer class="footer">футер</footer>
+        <footer class="footer di-f ai-center jc-sb">
+            <div class="footer__logo">
+                <img src="../images/logo.svg" width="65px" alt="luna">
+                <H1><a href="#" class="footer__logo__text td-none">ЖК Лунное море</a></H1>
+            </div>
+            <div class="doc">
+                <span class="article-name">Проектная документация</span>
+                <ul>
+                    <li>Скачать</li>
+                    <li>Посмотреть на сайте</li>
+                </ul>
+            </div>
+            <div class="buildiner">
+                <span class="article-name">О застройщике</span>
+                <ul>
+                    <li>Отзывы</li>
+                    <li>Сайт компании</li>
+                </ul>
+            </div>
+        </footer>
     </div>
 </body>
 
