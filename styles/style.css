@@ -4,6 +4,7 @@ body {
     color: #303846;
     margin: auto;
     background-color: #f7f7f7;
+    font-size: 16px;
 }
 
 .di-f {
@@ -19,6 +20,10 @@ body {
 
 .w-100 {
   width: 100%;
+}
+
+.w-1000px {
+  width: 1000px;
 }
 .jc-sb {
   justify-content: space-between;
@@ -51,7 +56,6 @@ body {
 .logo-text {
   margin-left: 10px;
   color: #303846;
-  font-size: 23px;
 }
 
 
@@ -66,26 +70,21 @@ body {
   color: #303846;
 }
 .hero {
-  margin-top: 100px;
+  margin-top: 80px;
   color: #ffffff;
   background: url("../images/banner.png") bottom;
-  padding: 10px;
-  justify-content: space-around;
   background-size: cover;
 }
 
 .hero-img {
   width: 120px;
 }
-
 .hero_text {
-  margin: -30px;
+  font-size: 2.5em;
 }
-
 .hero_small-text {
-  margin-top: -20px;
+  margin-top: -30px;
 }
-
 .button {
   border-color: #ffffff;
   border-radius: 10px;
@@ -100,39 +99,37 @@ body {
 
 .advantages_block {
   align-items: baseline;
+  justify-content: space-between;
 }
-.advantages__content{
-  width: 20%;
+.advantages__content {
+  box-sizing: border-box;
+  width: 300px;
   padding: 20px;
 }
-
-
-.about__content {
-  width: 35%;
-  padding-left: 50px;
-  padding-right: 20px;
-  margin-right: 30px;
+.about__article {
+  padding-right: 2em;
 }
-
 .img {
-  width: 15%;
+  height: 230px;
+  width: 300px;
 }
 
 .article-name {
-  text-align: center;
   margin-bottom: .4em;
 }
 
-.rest__content {
-  padding-left: 50px;
-  padding-right: 20px;
+.rest__article {
+  padding-left: 2em;
 }
 .emty {
   height: 100px;
 }
 .section__form {
-  width: 500px;
+  width: 350px;
   margin: auto;
+}
+.form-name {
+  text-align: center;
 }
 .fieldset {
   margin-bottom: 20px;
@@ -151,26 +148,31 @@ body {
 
 .legend {
   font-weight: bold;
+  font-size: 1.3em;
 }
 
 .fieldset__p > label {
-  padding: .5em 1em .5em 0;
   flex: 1;
 }
 
 .select {
-  width: 45%;
+  width: 35%;
   border-radius: 5px;
+  margin-right: 40px;
+  background-color: #ffffff;
 }
 
 .input {
   width: 45%;
   border-radius: 5px;
+  border-style: solid;
+  border-width: 1px;
 }
+
+
 .input-form {
   color: #30d5c8;
   border-color: #30d5c8;
-  margin-left: 428px;
   margin-bottom: 100px;
   padding: 10px;
   border-radius: 8px;
