@@ -25,14 +25,14 @@
            
         </header>
         <main>
-            <div class="hero di-f fd-colum ai-center  h-400">
+            <div class="hero di-f fd-colum ai-center jc-center h-400">
                 <img src="../images/logo.svg" alt="luna" class="hero-img">
                 <h1 class="hero_text">ЖК "Лунное море"</h1>
-                <span class="hero_small-text">Место, откуда не хочеться улетать</span>
+                <span class="hero_small-text"></span><h4>Место, откуда не хочеться улетать</h4></span>
                 <button class="button"><a href="#booking" class="button__link">Забронировать</a></button>
             </div>
-            <section id="advantages" class="advantages di-f ai-center h-400">
-                <div class="advantages_block di-f jc-center">
+            <section id="advantages" class="advantages di-f jc-center ai-center h-400 ">
+                <div class="advantages_block di-f w-1000px">
                     <div class="advantages__content">
                         <h2 class="article-name">Уникальный вид</h2>
                         <span><br> Вид на космос из вашего окна. Мы построили дома с
@@ -51,39 +51,41 @@
                     </div>
                 </div>
             </section>
-            <section id="about" class="bout di-f ai-center jc-center h-400">
-                <div class="about__content">
-                    <h2 class="article-name">О ЖК "Лунное море"</h2>
-                    <span class="about__text">
-                        Все чаще жители столицы предпочитают загородный дом городской квартире, к тому же связь с
+            <section id="about" class="about di-f jc-center ai-center h-400">
+                <div class="about__content di-f ai-center jc-sb w-1000px">
+                    <div>
+                        <h2 class="article-name">О ЖК "Лунное море"</h2>
+                        <span class="about__text"><br>Все чаще жители столицы предпочитают загородный дом городской квартире, к тому же связь с
                         мегаполисом не теряется – современные скоростные трассы позволяют без труда добираться до
                         столицы и обратно.
                         <br> Мы построили наши дома на самом близком к Солнцу спутнике, всего в 380 тысяч километров от
                         Земли.
-                    </span>
+                        </span>
+                    </div>
+                    <img src="../images/moon-1.jpg" class="img" alt="вид на луну">
                 </div>
-                <img src="../images/moon-1.jpg" class="img" alt="вид на луну">
             </section>
             <section id="rest" class="rest di-f jc-center ai-center h-400">
-                <img src="../images/moon-2.jpg" class="img" alt="космонавт с пивом">
-                <div class="about__content">
-                    <h2 class="article-name">Места для отдыха</h2>
-                    <span>
-                        Луна обладает всеми условиями для комфортного отдыха от большого города. В вашем распоряжении 22
-                        моря и 18 гор. Самое ближайшее кольцо гор всего в 200 километров от вашей квартиры.
-                        <br>Дома располагаются в новом районе «Лунные моря». При необходимости есть автобусы до района
-                        «Лунный материк».
-                    </span>
+                <div class="rest__content di-f jc-sb w-1000px">
+                    <img src="../images/moon-2.jpg" class="img" alt="космонавт с пивом">
+                    <div class="rest__article">
+                        <h2 class="article-name">Места для отдыха</h2>
+                        <span><br>Луна обладает всеми условиями для комфортного отдыха от большого города. В вашем распоряжении 22
+                            моря и 18 гор. Самое ближайшее кольцо гор всего в 200 километров от вашей квартиры.
+                            <br>Дома располагаются в новом районе «Лунные моря». При необходимости есть автобусы до района
+                            «Лунный материк».
+                        </span>
+                    </div>
                 </div>
             </section>
             <section id="booking" class="emty"></section>
             <section  class="form di-f jc-center fd-colum h-400">
                 <form action="" class="section__form di-f fd-colum">
-                    <h2 class="article-name">Оставьте заявку сегодня!</h2>
+                    <h2 class="form-name">Оставьте заявку сегодня!</h2>
                     <fieldset class="fieldset">
                         <legend class="legend">Параметры квартиры</legend>
-                        <p class="fieldset__p">
-                            <label for="rooms">Количество комнат</label>
+                        <p class="fieldset__p di-f">
+                            <label for="rooms" class="label">Количество комнат</label>
                             <select name="rooms" id="" class="select">
                                 <option value="room1">1</option>
                                 <option value="room2">2</option>
@@ -91,7 +93,7 @@
                             </select>
                         </p>
                         <p class="fieldset__p">
-                            <label for="tuning">Отделка</label>
+                            <label for="tuning" class="label">Отделка</label>
                             <select name="tuning" id="" class="select">
                                 <option value="tuning0">Без отделки</option>
                                 <option value="tuning1">С отделкой</option>
@@ -114,28 +116,30 @@
                             <input class="input" type="text">
                         </p>
                     </fieldset>
+                    <input class="input-form" type="button" value="Отправить"></input>
                 </form>
-                <input class="input-form" type="button" value="Отправить"></input>
             </section>
         </main>
-        <footer class="footer di-f ai-center jc-sb">
-            <div class="footer__logo di-f ai-center">
-                <img src="../images/logo.svg" width="65px" alt="luna">
-                <H1><a href="#" class="footer__logo__text td-none">ЖК Лунное море</a></H1>
-            </div>
-            <div class="doc di-f fd-colum">
-                <span class="article-name">Проектная документация</span>
-                <ul class="footer__link">
-                    <li>Скачать</li>
-                    <li>Посмотреть на сайте</li>
-                </ul>
-            </div>
-            <div class="buildiner di-f fd-colum">
-                <span class="article-name">О застройщике</span>
-                <ul class="footer__link">
-                    <li>Отзывы</li>
-                    <li>Сайт компании</li>
-                </ul>
+        <footer class="footer di-f ai-center jc-center">
+            <div class="footer__content di-f jc-sb w-1000px">
+                <div class="footer__logo di-f ai-center">
+                    <img src="../images/logo.svg" width="60px" alt="luna">
+                    <H1><a href="#" class="footer__logo__text td-none">ЖК Лунное море</a></H1>
+                </div>
+                <div class="doc di-f fd-colum">
+                    <span class="article-name">Проектная документация</span>
+                    <ul class="footer__link">
+                        <li>Скачать</li>
+                        <li>Посмотреть на сайте</li>
+                    </ul>
+                </div>
+                <div class="buildiner di-f fd-colum">
+                    <span class="article-name">О застройщике</span>
+                    <ul class="footer__link">
+                        <li>Отзывы</li>
+                        <li>Сайт компании</li>
+                    </ul>
+                </div>
             </div>
         </footer>
     </div>
